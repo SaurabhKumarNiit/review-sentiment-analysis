@@ -88,7 +88,7 @@ const ReviewHighlighter = ({ reviews }) => {
                                         padding: '1px',
                                         borderRadius: '3px',
                                         position: 'relative',
-                                        cursor: 'pointer', // Add cursor pointer on hover
+                                        cursor: 'pointer', 
 
                                     }}
                                     onMouseEnter={(e) => handleMouseEnter(e, sentence.category)}

@@ -42,7 +42,7 @@ const headerStyle = {
   position: 'fixed',
   width: '100%',
   top: 0,
-  zIndex: 1000, // Ensure the header is above other elements
+  zIndex: 1000,
 };
 
 const navStyle = {
