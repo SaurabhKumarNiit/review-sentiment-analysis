@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/review-sentiment-analysis/static/css/main.e6c13ad2.css",
+    "main.js": "/review-sentiment-analysis/static/js/main.48081774.js",
+    "static/js/453.3d6e524c.chunk.js": "/review-sentiment-analysis/static/js/453.3d6e524c.chunk.js",
+    "index.html": "/review-sentiment-analysis/index.html",
+    "main.e6c13ad2.css.map": "/review-sentiment-analysis/static/css/main.e6c13ad2.css.map",
+    "main.48081774.js.map": "/review-sentiment-analysis/static/js/main.48081774.js.map",
+    "453.3d6e524c.chunk.js.map": "/review-sentiment-analysis/static/js/453.3d6e524c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.48081774.js"
+  ]
+}
