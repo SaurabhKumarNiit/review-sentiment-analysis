@@ -1,5 +1,3 @@
-// ReviewHighlighter.js
-
 import React, { useState } from 'react';
 import Tooltip from './Tooltip';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
@@ -30,7 +28,7 @@ const ReviewHighlighter = ({ reviews }) => {
             <h2>Highlighted Reviews</h2>
             {reviews.map((review) => (
 
-                <div key={review.review_id} style={{ width: '100%', marginBottom: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)' }}>
+                <a href={review.review_url} target="_blank" rel="noreferrer"  key={review.review_id} style={{ width: '100%', marginBottom: '20px', boxShadow: '0 4px 8px rgba(0, 0, 0, 0.1)', textDecoration:'none',color:'#111' }}>
                     <div style={{ marginLeft: '-30px', display: 'flex', justifyContent: 'space-between' }}>
                         <ul style={{ display: 'flex' }}>
                             <li style={{ listStyleType: 'none' }}>
@@ -101,7 +99,7 @@ const ReviewHighlighter = ({ reviews }) => {
                             ))}
                         </p>
                     </div>
-                </div>
+                </a>
             ))}
             {tooltip.show && <Tooltip sentimentTopic={tooltip.topic} style={{ top: tooltip.position.top, left: tooltip.position.left }} />}
         </div>
